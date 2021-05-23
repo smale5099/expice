@@ -1,0 +1,166 @@
+body {
+    width: 1920px;
+}
+.first-block {
+    background: #FFF5EC;
+    font-family: Poppins;
+    margin: -8px;
+    height: 1048px;
+}
+
+.menu {
+    display: flex;
+    width: 1652px;
+    height: 108px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.menu__expice {
+    width: 245px;
+    margin-right: 200px;
+}
+
+.menu__tittle {
+    margin: auto;
+}
+
+.menu__user {
+    margin: auto 0 auto 603px;
+    z-index: 2;
+}
+
+.menu__name {
+    margin: auto;
+    z-index: 2;
+    color: #FFFFFF;
+}
+
+.right-red {
+    background: #FE043C;
+    width: 514px;
+    height: 1210px;
+    position: absolute;
+    left: 1420px;
+    top: 0;
+    z-index: 1;
+}
+
+.salad__plate {
+    width: 878px;
+    height: 870px;
+    position: absolute;
+    z-index: 2;
+    left: 941px;
+    top: 176px;
+}
+
+.salad__salat {
+    position: absolute;
+    width: 584px;
+    height: 900px;
+    left: 1153px;
+    z-index: 2;
+    top: 0;
+}
+
+.salad__vector {
+    position: absolute;
+    width: 430px;
+    height: 354px;
+    top: 202px;
+    left: 974px;
+    z-index: 1.5;
+}
+
+.salad__vector2 {
+    position: absolute;
+    width: 430px;
+    height: 354px;
+    left: 974px;
+    top: 582px;
+}
+
+.food {
+    position: absolute;
+    width: 506px;
+    height: 179px;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 300px;
+    opacity: 5%;
+    left: 128px;
+    top: 258px;
+    text-transform: capitalize;
+}
+
+.search__input {
+    position: absolute;
+    width: 670px;
+    height: 90px;
+    left: 149px;
+    top: 623px;
+    border: none;
+}
+
+::placeholder {
+    opacity: 60%;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #2E266F;
+}
+
+.search__button {
+    position: absolute;
+    width: 200px;
+    height: 72px;
+    left: 610px;
+    top: 632px;
+    background: #FE043C;
+    border-radius: 60px 0 0 0;
+    border: none;
+}
+
+.search__go {
+    position: absolute;
+    top: 647px;
+    left: 687px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.location__button {
+    position: absolute;
+    width: 280px;
+    height: 65px;
+    left: 0;
+    top: 892px;
+    background: #FE043C;
+    border-radius: 0 100px 100px 0;
+}
+
+.location__text {
+    left: 104px;
+    top: 902px;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.location__img {
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    top: 912px;
+    left: 64px;
+}
+
+.second-block {
+    background: #FFF5EC;
+    font-family: Poppins;
+    margin: -8px;
+    height: 1320px;
+}
