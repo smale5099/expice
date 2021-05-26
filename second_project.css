@@ -416,7 +416,7 @@ body {
 }
 
 .window__input {
-    position: absolute;
+    position: relative;
     width: 544px;
     height: 90px;
     left: 413px;
@@ -451,7 +451,7 @@ body {
 }
 
 .fourth-block {
-    height: 3088px;
+    height: 3237px;
     background: #FFF5EC;
     font-family: Poppins;
     margin: -8px;
@@ -659,4 +659,265 @@ body {
     top: 458px;
     left: -109px;
     z-index: 0;
+}
+
+.our-food {
+    display: flex;
+    margin-top: 1262px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.our-food__tittle {
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #2E266F;
+    padding-bottom: 30px;
+}
+
+.our-food__sub-tittle {
+    width: 609px;
+    height: 65px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #707070;
+}
+
+.our-food__sandvich {
+    position: absolute;
+    top: 355px;
+    left: 135px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+    width: 530px;
+    height: 552px;
+}
+
+.food__sandvich-tittle {
+    position: absolute;
+    top: 433px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2E266F;
+}
+
+.food__sandvich-sub-tittle {
+    position: absolute;
+    width: 289px;
+    left: 30px;
+    top: 478px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.food__sandvich-price {
+    position: absolute;
+    left: 420px;
+    top: 433px;
+    font-weight: bold;
+    color: #FE043C;
+}
+
+.our-food__burger {
+    position: absolute;
+    top: 355px;
+    left: 696px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+    width: 530px;
+    height: 552px;
+}
+
+.our-food__free {
+    position: absolute;
+    top: 355px;
+    left: 1256px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+    width: 530px;
+    height: 552px;
+}
+
+.our-food__mix {
+    position: absolute;
+    top: 967px;
+    left: 135px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+    width: 530px;
+    height: 552px;
+}
+
+.our-food__ice {
+    position: absolute;
+    top: 967px;
+    left: 696px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+    width: 530px;
+    height: 552px;
+}
+
+.our-food__coockie {
+    position: absolute;
+    top: 967px;
+    left: 1256px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+    border-radius: 25px;
+    width: 530px;
+    height: 552px;
+}
+
+.downapp {
+    height: 1090px;
+    background: #FFEDDE;
+    font-family: Poppins;
+    margin: -8px;
+    position: relative;
+}
+
+.downapp__phone {
+    position: absolute;
+    top: 33px;
+    left: 1037px;
+}
+
+.downapp__phone_back {
+    position: absolute;
+    top: 110px;
+    left: 1218px;
+}
+
+.downapp__brokly {
+    position: absolute;
+    top: 291px;
+    left: 705px;
+}
+
+.downapp__tittle {
+    position: absolute;
+    width: 475px;
+    height: 122px;
+    left: 199px;
+    top: 399px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-transform: capitalize;
+    color: #2E266F;
+}
+
+.downapp__sub-tittle {
+    position: absolute;
+    width: 449px;
+    height: 71px;
+    left: 199px;
+    top: 551px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #707070;
+}
+
+.downapp__google{
+    position: absolute;
+    width: 178px;
+    height: 49px;
+    left: 199px;
+    top: 652px;
+}
+
+.downapp__apple {
+    position: absolute;
+    left: 397px;
+    top: 652px;
+}
+
+.downapp__line {
+    position: absolute;
+    width: 25px;
+    height: 140px;
+    left: 135px;
+    top: 390px;
+    background: #FE043C;
+}
+
+.footer {
+    position: relative;
+    height: 946px;
+    background: #FFF5EC;
+    margin: -8px;
+    font-family: Poppins;
+    overflow: hidden;
+}
+
+.footer__kust {
+    position: absolute;
+    width: 750px;
+    height: 963px;
+    top: 72px;
+}
+
+.footer__info {
+    display: flex;
+    width: 556px;
+    height: 402px;
+    flex-direction: column;
+    margin-left: 671px;
+}
+
+.info__more {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #707070;
+    width: 434px;
+    height: 28px;
+    margin: auto;
+}
+
+.info__sub-tittle {
+    width: 533px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #707070;
+    margin-top: 30px;
+}
+
+.info__tittle {
+    width: 534px;
+    height: 90px;
+    font-size: 36px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E266F;
+}
+
+.info__input {
+    width: 544px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 30px 2px #FFF5EC;
+    border-radius: 100px;
+    border: none;
+    margin: 60px 0;
 }
