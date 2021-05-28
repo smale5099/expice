@@ -366,20 +366,17 @@ body {
     background-color: #FFEDDE;
     font-family: Poppins;
     margin: -8px;
-    z-index: -2;
 }
 
 .salad2 {
     position: absolute;
     top: -282px;
-    z-index: -1;
 }
 
 .kapusta {
     position: absolute;
     left: 1562px;
     top: 227px;
-    z-index: -1;
 }
 
 .window {
@@ -389,7 +386,22 @@ body {
     left: 274px;
     top: 271px;
     background: #FFFFFF;
-    z-index: -3;
+}
+
+.window__date {
+    position: absolute;
+    top: 386px;
+    left: 500px;
+    width: 95px;
+    height: 54px;
+}
+
+.window__time {
+    position: absolute;
+    width: 70px;
+    height: 54px;
+    left: 665px;
+    top: 386px;
 }
 
 .window__line {
@@ -403,6 +415,8 @@ body {
     box-sizing: border-box;
 }
 
+
+
 .window__tittle {
     position: absolute;
     width: 319px;
@@ -415,8 +429,20 @@ body {
     color: #2E266F;
 }
 
+.window__person {
+    position: absolute;
+    width: 70px;
+    height: 54px;
+    left: 800px;
+    top: 386px;
+}
+
+.ssilka {
+
+}
+
 .window__input {
-    position: relative;
+    position: absolute;
     width: 544px;
     height: 90px;
     left: 413px;
@@ -866,8 +892,8 @@ body {
 
 .footer__kust {
     position: absolute;
-    width: 750px;
-    height: 963px;
+    width: 634px;
+    height: 874px;
     top: 72px;
 }
 
@@ -876,7 +902,8 @@ body {
     width: 556px;
     height: 402px;
     flex-direction: column;
-    margin-left: 671px;
+    margin: 272px 0 0 701px;
+    position: relative;
 }
 
 .info__more {
@@ -920,4 +947,44 @@ body {
     border-radius: 100px;
     border: none;
     margin: 60px 0;
+}
+
+.footer__back {
+    position: absolute;
+    top: 110px;
+}
+
+.footer__soc {
+    width: 430px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 131px 0px 0px 1333px;
+}
+
+.soc__icons {
+    width: 148px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc__year {
+    margin-left: 85px;
+    width: 197px;
+    height: 16px;
+}
+
+.info__button {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: #FE043C;
+    position: absolute;
+    top: 241px;
+    left: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:a="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -32,8 +32,10 @@
             <label>
                 <input type="text" class="search__input" placeholder="Search Restaurant, Food">
             </label>
-            <div class="search__button"></div>
-            <div class="search__go">GO</div>
+            <a href="img/e.jpg" class="ssilka">
+                <div class="search__button"></div>
+                <div class="search__go">GO</div>
+            </a>
         </div>
         <div class="location">
             <div class="location__button"></div>
@@ -84,17 +86,36 @@
         </div>
     </div>
     <div class="third-block">
-        <img src="img/salad2.png"  class="salad2" alt="">
-        <img src="img/kapusta.png" alt="" class="kapusta">
         <div class="window">
+            <select class="window__date">
+                <option value="value1">date</option>
+                <option value="value2" >1-10</option>
+                <option value="value3">11-20</option>
+                <option value="value3">21-30</option>
+            </select>
+            <select class="window__time">
+                <option value="value1">time</option>
+                <option value="value2">00-06</option>
+                <option value="value3">06-12</option>
+                <option value="value3">12-18</option>
+                <option value="value3">18-24</option>
+            </select>
+            <select class="window__person">
+                <option value="value1">person</option>
+                <option value="value2" >01</option>
+                <option value="value3">02</option>
+                <option value="value3">3+</option>
+            </select>
             <div class="window__line"></div>
             <div class="window__tittle">advance booking </div>
-            <label>
-                <input type="text" class="window__input" placeholder="search restaurant">
-            </label>
-            <div class="window__button"></div>
-            <img src="img/Go.png" alt="" class="window__go">
+            <input type="text" class="window__input" placeholder="search restaurant">
+            <a href="img/e.jpg" class="ssilka">
+                <input type="submit" class="window__button" value=" ">
+                <img src="img/Go.png" alt="" class="window__go">
+            </a>
         </div>
+        <img src="img/salad2.png"  class="salad2" alt="">
+        <img src="img/kapusta.png" alt="" class="kapusta">
     </div>
     <div class="fourth-block">
         <div class="services">
@@ -191,19 +212,38 @@
         <img src="img/apple.png" alt="" class="downapp__apple">
     </div>
     <div class="footer">
+        <img src="img/footer_back.png" alt="" class="footer__back">
         <img src="img/kust.png" alt="" class="footer__kust">
         <div class="footer__info">
-            <div class="info__tittle">Get notified
+            <div class="info__tittle">Get notified <br>
                 about new amazing products</div>
             <div class="info__sub-tittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est, adipiscing
                 cursus auctor eget sed phasellus senectus. </div>
-            <input  class="info__input" type="email" placeholder="E-mail">
-            <div class="info__more">
-                <div>Product</div>
-                <div>Company</div>
-                <div>Learn More</div>
-                <div>Get in Touch</div>
+            <label>
+                <input  class="info__input" type="email" placeholder="E-mail">
+            </label>
+            <div class="info__button">
+                <a href="img/e.jpg" class="ssilka">
+                  <img src="img/info_button_arrow.png" alt="">
+                </a>
             </div>
+            <div class="info__more">
+                 <div>Product</div>
+                 <div>Company</div>
+                 <div>Learn More</div>
+                 <div>Get in Touch</div>
+            </div>
+        </div>
+        <div class="footer__soc">
+            <a href="img/e.jpg" class="ssilka">
+              <div class="soc__icons">
+                <img src="img/facebook.png" alt="">
+                <img src="img/twitter.png" alt="">
+                <img src="img/linkedin.png" alt="">
+                <img src="img/behance.png" alt="">
+              </div>
+            </a>
+            <div class="soc__year">© 2020 Expice Studio </div>
         </div>
     </div>
 </body>
