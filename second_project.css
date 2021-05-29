@@ -1,11 +1,13 @@
-body {
+.container {
     width: 1920px;
+    margin: 0px auto;
 }
 .first-block {
     background: #FFF5EC;
     font-family: Poppins;
     margin: -8px;
     height: 1048px;
+    position: relative;
 }
 
 .menu {
@@ -228,7 +230,7 @@ body {
     position: absolute;
     width: 639px;
     height: 253px;
-    top: 1887px;
+    top: 384px;
     background-color: rgba(254, 4, 60,0.7);
     border-radius: 0 0 20px 20px;
 }
@@ -237,7 +239,7 @@ body {
     position: absolute;
     width: 639px;
     height: 253px;
-    top: 1887px;
+    top: 384px;
     left: 663px;
     background-color: rgba(254, 4, 60,0.7);
     border-radius: 0 0 20px 20px;
@@ -304,24 +306,22 @@ body {
 
 .pizza-vector {
     position: absolute;
-    width: 316px;
-    height: 50px;
     left: 20px;
-    top: 1438px;
+    top: -70px;
 }
 
 .burger_vector_r {
     position: absolute;
     width: 50px;
     height: 316px;
-    left: 1285px;
-    top: 1784px;
+    left: 1287px;
+    top: 270px;
 }
 
 .burger_vector_b {
     position: absolute;
     left: 1020px;
-    top: 2120px;
+    top: 620px;
 }
 
 .red-burger__tittle {
@@ -827,6 +827,10 @@ body {
     border-radius: 25px;
     width: 530px;
     height: 552px;
+}
+
+.food {
+    position: relative;
 }
 
 .downapp {
