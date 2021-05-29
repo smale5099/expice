@@ -19,6 +19,10 @@ body {
 .menu__expice {
     width: 245px;
     margin-right: 200px;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    color: #FE043C;
 }
 
 .menu__tittle {
@@ -36,6 +40,18 @@ body {
     color: #FFFFFF;
 }
 
+.food_main {
+    position: absolute;
+    width: 506px;
+    height: 179px;
+    left: 132px;
+    top: 258px;
+    font-weight: 900;
+    font-size: 200px;
+    text-transform: capitalize;
+    opacity: 0.05   ;
+}
+
 .right-red {
     background: #FE043C;
     width: 516px;
@@ -44,6 +60,12 @@ body {
     left: 1420px;
     top: 0;
     z-index: 1;
+}
+
+.carousel {
+    position: absolute;
+    top: 979px;
+    left: 207px;
 }
 
 .salad__plate {
